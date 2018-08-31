@@ -15,6 +15,7 @@
 # include <stdlib.h>
 # include <fcntl.h>
 # include <unistd.h>
+//# include "libft.h"
 
 /*
 ** ------------------------------ libft functions ------------------------------
@@ -28,6 +29,7 @@ void			ft_putstr(char *str);
 char			*ft_strjoin(char const *s1, char const *s2);
 int				ft_strlen(char *str);
 char			*ft_strnew(size_t size);
+
 
 /*
 ** -------------------------------- structures ---------------------------------
